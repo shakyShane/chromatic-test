@@ -1,0 +1,14 @@
+{
+  "name": "chromatic-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@chromatic-com/playwright": "0.10.2",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1",
+    "chromatic": "^11.25.2"
+  }
+}
