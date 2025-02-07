@@ -32,8 +32,9 @@ jobs:
           retention-days: 30
   chromatic:
     name: Run Chromatic
-    needs: playwright
+    needs: playwright # Depend on the playwright job
     runs-on: macos-latest
+    if: always() # Ensure this job always runs after playwright
     steps:
       - uses: actions/checkout@v4
         with:
